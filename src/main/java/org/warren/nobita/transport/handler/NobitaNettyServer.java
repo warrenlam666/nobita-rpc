@@ -18,7 +18,6 @@ public class NobitaNettyServer {
 
     public NobitaNettyServer(ServiceInvocationHandler invocationHandler) throws InterruptedException {
         this.invocationHandler = invocationHandler;
-        start();
     }
 
     public void start() throws InterruptedException {
